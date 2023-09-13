@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>貳樓|MENU</title>
+        <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css?family=Khand');
+            @import url('https://fonts.googleapis.com/css?family=Oswald');
+            @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url("https://i.postimg.cc/v8V8WRFS/fundo.png");
+    color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    font-family: 'Khand', sans-serif;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.home{
+    background-image: url("https://i.postimg.cc/Bn13z9Wz/2floor4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.top-nav{
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    left: 50%;
+    margin: 0;
+    font-size: 2em;
+    transform: translateX(-50%);
+    font-weight: bolder;
+}
+
+.top-nav a{
+    color: #292421;
+    font-family: 'Khand', sans-serif;
+    display: block;
+}
+
+.top-nav a img{
+    margin-top: -15px;
+}
+
+.aside-float{
+    text-align: right;
+    width: 20%;
+    padding: 15px;
+}
+
+.nav-side{
+    position: sticky;
+    top: 0;
+}
+
+.nav-side a{
+    color: #f2f2f2;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+}
+
+.nav-side img{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.items{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.menu-items{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    break-inside: avoid;
+    border-bottom: #f2f2f2 2px dotted;
+    font-size: 1.4em;
+}
+
+.content-menu{
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.content-side{
+    border-left: #f2f2f2 2px solid;
+    display: block;
+    width: 100%;
+}
+
+.header1{
+    background-image: url("https://i.postimg.cc/0jH9xZ2c/Grilled-meat-63-banner.jpg");
+    background-size: cover;
+}
+
+.header2{
+    background-image: url("https://i.postimg.cc/Bn2fwJDh/Mumbai-blog-banner-1400x400px.jpg");
+    background-size: cover;
+}
+
+.header3{
+    background-image: url("https://i.postimg.cc/857S4Mbv/page-banner-dessert.jpg");
+    background-size: cover;
+}
+
+.h1{
+    font-size: 5em;
+    text-align: center;
+    border-top: #f2f2f2 2px solid;
+    border-bottom: #f2f2f2 2px solid;
+}
+
+section h1{
+    color: #f2f2f2;
+    font-size: 4em;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(37, 28, 15, 0.534);
+}
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#service_infomation1 {
+  font-family: 'Khand', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  left: -120px;
+  top: 80px;
+}
+
+#service_infomation2 {
+  font-family: 'Khand', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  left: -120px;
+  top: 100px;
+}
+
+#service_infomation3 {
+  font-family: 'Khand', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  left: -120px;
+  top: 120px;
+}
+
+.search-bar {
+    width: 25%;
+  position: absolute;
+  top: 3%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+#search-input {
+    width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #000000;
+}
+
+#search-button {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+        </style>
+    </head>
+<body>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="#food-menu">LET'S EXPLORE SECOND FLOOR CAFE｜貳樓</a>
+        <a href="#food-menu">
+            <img src="https://i.postimg.cc/fTzFMXKj/arrow-down.png" alt="Cardápio">
+        </a>
+    </nav>
+
+    <script>
+        function changeLink(link) {
+            if(document.getElementById(link)==null){
+                document.getElementById('search-href').setAttribute("href", "");
+                alert('沒有此品項!');
+            } else {
+                document.getElementById('search-href').setAttribute("href", "#"+link);
+            }
+        }
+    </script>
+
+    <div class="search-bar">
+        <div class="search">
+            <input type="text" name="search" placeholder="Search..." id="search-input">
+            <a id="search-href" href=""><button type="submit" id="search-button" onclick="changeLink(document.getElementById('search-input').value)"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Search_Noun_project_15028.svg/1046px-Search_Noun_project_15028.svg.png" height="18px"></button></a>
+        </div>
+    </div>
+    <section id="home" class="home"></section>
+    <div class="container" id="food-menu">
+        {% if name=="" %}
+        {% else %}
+        <p id="service_infomation1">Hello from behind Envoy (service {{service}})!</p>
+        <p id="service_infomation2">hostname: {{hostnameOne}} resolved</p>
+        <p id="service_infomation3">hostname: {{hostnameTwo}}</p>
+        {% endif %}
+        <h1 class="h1">MENU</h1>
+        <section class="content-menu">
+            <aside class="aside-float">
+                <nav class="nav-side">
+                    <a href="#plates">Dishes<img src="https://i.postimg.cc/65MPq3bs/cutlery.png" alt="Pratos"></a>
+                    <a href="#drinks">Drinks<img src="https://i.postimg.cc/mg6KXD73/juice.png" alt="Sucos"></a>
+                    <a href="#dessert">Dessert<img src="https://i.postimg.cc/0NMFLsCT/piece-of-cake.png" alt="Sobremesa"></a>
+                    <a href="#food-menu">Top<img src="https://i.postimg.cc/nrDLzgZg/arrow-up.png" alt="Voltar ao Topo"></a>
+                </nav>
+            </aside>
+            <section class="content-side">
+                <section class="items" id="items">
+                    <article class="plates" id="plates">
+                        <div class="header1">
+                            <h1>Dishes</h1>
+                        </div>
+                        <ul class="menu-items">
+                            
+                            <li class="item" id="松露薯條">
+                                <en class="food">松露薯條｜Truffle French Fries</en>
+                                <en class="price">NT$ 280</en>
+                            </li>
+                            <li class="item" id="松露伊比利豬排起司堡">
+                                <en class="food">松露伊比利豬排起司堡｜Truffle Iberico Pork Chop Cheeseburger</en>
+                                <en class="price">NT$ 780</en>
+                            <li class="item" id="鵝肝牛腩堡">
+                                <en class="food">鵝肝牛腩堡｜Foie Gras and Beef Brisket Burger</en>
+                                <en class="price">NT$ 1080</en>
+                            </li>
+                             <li class="item" id="鵝肝醬和牛燉飯">
+                                <en class="food">鵝肝醬和牛燉飯｜Foie gras and Wagyu Risotto</en>
+                                <en class="price">NT$ 2080</en>
+                            </li>
+                             <li class="item" id="松露金沙烤龍蝦佐魚子醬">
+                                <en class="food">松露金沙烤龍蝦佐魚子醬｜Grilled Lobster with Truffle Salted Egg Yolk and Caviar</en>
+                                <en class="price">NT$ 2080</en>
+                            </li>
+                            
+                        </ul>
+                    </article>
+                </section>
+                <section class="items" id="items">
+                    <article class="drinks" id="drinks">
+                        <div class="header2">
+                            <h1>Drinks</h1>
+                        </div>
+                        <ul class="menu-items">
+                            <li class="item" id="冰奶茶">
+                                <en class="food">冰奶茶｜Iced Milk Tea</en>
+                                <en class="price">NT$ 180</en>
+                            </li>
+                            <li class="item" id="激情叢林">
+                                <en class="food">激情叢林｜Sex in The Jungle</en>
+                                <en class="price">NT$ 380</en>
+                            </li>
+                            <li class="item" id="溫馨瑪莉">
+                                <en class="food">溫馨瑪莉｜Comfort Mary</en>
+                                <en class="price">NT$ 580</en>
+                            </li>
+                            <li class="item" id="短島冰茶">
+                                <en class="food">短島冰茶｜Short Island</en>
+                                <en class="price">NT$ 580</en>
+                            </li>
+                            <li class="item" id="約翰走跳(瓶)">
+                                <en class="food">約翰走跳(瓶)｜Johny Gangster(Bottle)</en>
+                                <en class="price">NT$ 12980</en>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="items" id="items">
+                    <article class="drinks" id="dessert">
+                        <div class="header3">
+                            <h1>Dessert</h1>
+                        </div>
+                        <ul class="menu-items">
+                            <li class="item" id="布朗尼">
+                                <en class="food">布朗尼｜Bronny</en>
+                                <en class="price">NT$ 120</en>
+                            </li>
+                            <li class="item" id="奶油派">
+                                <en class="food">奶油派｜Cream Pie</en>
+                                <en class="price">NT$ 180</en>
+                            </li>
+                            <li class="item" id="起士蛋糕">
+                                <en class="food">起士蛋糕｜Cheese Cake</en>
+                                <en class="price">NT$ 220</en>
+                            </li>
+                            <li class="item" id="包種茶凍">
+                                <en class="food">包種茶凍｜Baozhong Tea Jelly</en>
+                                <en class="price">NT$ 220</en>
+                            </li>
+                            <li class="item" id="樹莓派">
+                                <en class="food">樹莓派｜Raspberry Pie</en>
+                                <en class="price">NT$ 280</en>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+        </section>
+        <footer class="container">
+            <div class="social-media">
+                <nav>
+                    <a href="https://vt.tiktok.com/ZSJXNwQ2r/">
+                        <img src="https://i.postimg.cc/SxprfYTY/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/zwuang/">
+                        <img src="https://i.postimg.cc/W4NwQLP2/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <img src="https://i.postimg.cc/s2T4z6V5/youtube.png" alt="YouTube">
+                    </a>
+                </nav>
+            </div>
+            <div class="copyright">
+                <p>Sharing Love. Sharing Food.</p>
+                <p>© copyright 2020.</p>
+                <p>All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

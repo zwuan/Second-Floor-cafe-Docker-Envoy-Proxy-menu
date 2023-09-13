@@ -1,0 +1,712 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>ONLINE ORDER</title>
+    <style>
+        h1 {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            color: white;
+        }
+        h4 {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            color: black;
+        }
+        h5 {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            color: black;
+        }
+        span {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            color: black;
+        }
+        input {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            color: black;
+        }
+        a {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            color: white;
+        }
+        p.p1 {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            font-size: 150%;
+            color: white;
+        }
+        p.p2 {
+            font-family: "Courier New", Courier, monospace;
+            color: white;
+        }
+    </style>
+</head>
+<body background="https://static.vecteezy.com/system/resources/previews/001/485/048/large_2x/blurred-cafe-background-free-photo.jpg">
+    <div class="container">
+        <h1>SECOND FLOOR ONLINE ORDER</h1>
+
+
+        <style>
+            /* // Extra small devices (portrait phones, less than 576px) */
+            @media (max-width: 575.98px) {
+                .card-columns {
+                    column-count: 1;
+                }
+            }
+            /* // Small devices (landscape phones, 576px and up) */
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                .card-columns {
+                    column-count: 2;
+                }
+            }
+            /* // Medium devices (tablets, 768px and up) */
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                .card-columns {
+                    column-count: 3;
+                }
+            }
+            /* // Large devices (desktops, 992px and up) */
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                .card-columns {
+                    column-count: 3;
+                }
+            }
+            /* // Extra large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {
+                .card-columns {
+                    column-count: 3;
+                }
+            }
+        </style>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="nav_0" data-toggle="tab" href="#content_0" role="tab" aria-controls="content_0" aria-selected="true">APPETIZERS & SALADS</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" id="nav_1" data-toggle="tab" href="#content_1" role="tab" aria-controls="content_1" aria-selected="false">SF BRUNCH</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav_2" data-toggle="tab" href="#contact_2" role="tab" aria-controls="contact_2" aria-selected="false">PASTA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav_3" data-toggle="tab" href="#contact_3" role="tab" aria-controls="contact_3" aria-selected="false">FLAVORED RICE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav_4" data-toggle="tab" href="#contact_4" role="tab" aria-controls="contact_4" aria-selected="false">BURGERS & SANDWICHES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav_5" data-toggle="tab" href="#contact_5" role="tab" aria-controls="contact_5" aria-selected="false">TEA</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+
+            <div class="tab-pane fade show active" id="content_0" role="tabpanel" aria-labelledby="nav_0">
+
+                <div class="mt-5">
+                    <h1 class="mt-3 mb-3 text-center">APPETIZERS & SALADS</h1>
+                    <div class="card-columns">
+
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/c32b32de-f9b5-47d7-a3f5-9ae3a8764146.jpeg" alt="Pan-Fried Chicken Salad">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Pan-Fried Chicken Salad</h4>
+                                <h5>$330.00</h5>
+                                <form onsubmit="return addtocart('11', 'qq11', 'qqq11')">
+                                    <input type="hidden" id="11" value="Pan-Fried Chicken Salad">
+                                    <input type="hidden" id="qq11" value="1">
+                                    <input type="hidden" id="qqq11" value="330">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q11', 'qq11')" />
+                                <span id="q11">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q11', 'qq11')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/677e6216-c985-49cc-a0f1-24b189e76bfa.jpeg" alt="Salty Chicken Salad">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Salty Chicken Salad</h4>
+                                <h5>$250.00</h5>
+                                <form onsubmit="return addtocart('12', 'qq12', 'qqq12')">
+                                    <input type="hidden" id="12" value="Salty Chicken Salad">
+                                    <input type="hidden" id="qq12" value="1">
+                                    <input type="hidden" id="qqq12" value="250">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q12', 'qq12')" />
+                                <span id="q12">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q12', 'qq12')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/9d516d02-2543-4b7b-bb52-203a0d3c5af1.jpeg" alt="Crispy Potato Chips with Cheese Sauce">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Crispy Potato Chips with Cheese Sauce</h4>
+                                <h5>$180.00</h5>
+                                <form onsubmit="return addtocart('13', 'qq13', 'qqq13')">
+                                    <input type="hidden" id="13" value="Crispy Potato Chips with Cheese Sauce">
+                                    <input type="hidden" id="qq13" value="1">
+                                    <input type="hidden" id="qqq13" value="180">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q13', 'qq13')" />
+                                <span id="q13">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q13', 'qq13')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/2ccd4abd-938c-4c15-a9e4-9c4b4454d6b9.jpeg" alt="Buffalo Spicy Chicken Wing">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Buffalo Spicy Chicken Wing</h4>
+                                <h5>$250.00</h5>
+                                <form onsubmit="return addtocart('14', 'qq14', 'qqq14')">
+                                    <input type="hidden" id="14" value="Buffalo Spicy Chicken Wing">
+                                    <input type="hidden" id="qq14" value="1">
+                                    <input type="hidden" id="qqq14" value="250">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q14', 'qq14')" />
+                                <span id="q14">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q14', 'qq14')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/630873e4-422c-49d8-890d-cdb5f164bc23.jpeg" alt="Deep-Fried Squid Ring">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Deep-Fried Squid Ring</h4>
+                                <h5>$220.00</h5>
+                                <form onsubmit="return addtocart('15', 'qq15', 'qqq15')">
+                                    <input type="hidden" id="15" value="Deep-Fried Squid Ring">
+                                    <input type="hidden" id="qq15" value="1">
+                                    <input type="hidden" id="qqq15" value="220">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q15', 'qq15')" />
+                                <span id="q15">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q15', 'qq15')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/a17bb86c-fba5-44ae-a0af-410732b0ebf1.jpeg" alt="Deep-Fried Chicken with Mediterranean Cumin">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Deep-Fried Chicken with Mediterranean Cumin</h4>
+                                <h5>$360.00</h5>
+                                <form onsubmit="return addtocart('16', 'qq16', 'qqq16')">
+                                    <input type="hidden" id="16" value="Deep-Fried Chicken with Mediterranean Cumin">
+                                    <input type="hidden" id="qq16" value="1">
+                                    <input type="hidden" id="qqq16" value="360">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q16', 'qq16')" />
+                                <span id="q16">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q16', 'qq16')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/e0aa032b-a0d8-43e0-921a-301a035664b2.jpeg" alt="Signature Platter">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Signature Platter</h4>
+                                <h5>$480.00</h5>
+                                <form onsubmit="return addtocart('17', 'qq17', 'qqq17')">
+                                    <input type="hidden" id="17" value="Signature Platter">
+                                    <input type="hidden" id="qq17" value="1">
+                                    <input type="hidden" id="qqq17" value="480">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q17', 'qq17')" />
+                                <span id="q17">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q17', 'qq17')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/a34b5650-8395-4b13-82a0-ca26dd89dbb4.jpeg" alt="Hancheng Deep-Fried Chicken with Spicy Sauce">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Hancheng Deep-Fried Chicken with Spicy Sauce</h4>
+                                <h5>$250.00</h5>
+                                <form onsubmit="return addtocart('18', 'qq18', 'qqq18')">
+                                    <input type="hidden" id="18" value="Hancheng Deep-Fried Chicken with Spicy Sauce">
+                                    <input type="hidden" id="qq18" value="1">
+                                    <input type="hidden" id="qqq18" value="250">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q18', 'qq18')" />
+                                <span id="q18">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q18', 'qq18')" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="content_1" role="tabpanel" aria-labelledby="nav_1">
+
+                <div class="mt-5">
+                    <h1 class="mt-3 mb-3 text-center">SF BRUNCH</h1>
+                    <div class="card-columns">
+
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/62ca0a80-53f1-4947-8a26-e5a011dcda83.jpeg" alt="Signature Breakfast">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Signature Breakfast</h4>
+                                <h5>$360.00</h5>
+                                <form onsubmit="return addtocart('21', 'qq21', 'qqq21')">
+                                    <input type="hidden" id="21" value="Signature Breakfast">
+                                    <input type="hidden" id="qq21" value="1">
+                                    <input type="hidden" id="qqq21" value="360">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q21', 'qq21')" />
+                                <span id="q21">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q21', 'qq21')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/99f45b14-6f74-4719-a47c-b68f27a06af7.jpeg" alt="Pineapple Bun with Cheese Egg and Dongpo Pork Belly">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Pineapple Bun with Cheese Egg and Dongpo Pork Belly</h4>
+                                <h5>$380.00</h5>
+                                <form onsubmit="return addtocart('22', 'qq22', 'qqq22')">
+                                    <input type="hidden" id="22" value="Pineapple Bun with Cheese Egg and Dongpo Pork Belly">
+                                    <input type="hidden" id="qq22" value="1">
+                                    <input type="hidden" id="qqq22" value="380">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q22', 'qq22')" />
+                                <span id="q22">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q22', 'qq22')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/eea84b1b-f883-47ef-a4e3-b6082f4f4b92.jpeg" alt="Ficelle with Sous Vide Chicken Brunch">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Ficelle with Sous Vide Chicken Brunch</h4>
+                                <h5>$390.00</h5>
+                                <form onsubmit="return addtocart('23', 'qq23', 'qqq23')">
+                                    <input type="hidden" id="23" value="Ficelle with Sous Vide Chicken Brunch">
+                                    <input type="hidden" id="qq23" value="1">
+                                    <input type="hidden" id="qqq23" value="390">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q23', 'qq23')" />
+                                <span id="q23">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q23', 'qq23')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/d5defd46-2a9a-4eb2-953f-489272d8e743.jpeg" alt="Assorted Omelette">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Assorted Omelette</h4>
+                                <h5>$350.00</h5>
+                                <form onsubmit="return addtocart('24', 'qq24', 'qqq24')">
+                                    <input type="hidden" id="24" value="Assorted Omelette">
+                                    <input type="hidden" id="qq24" value="1">
+                                    <input type="hidden" id="qqq24" value="350">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q24', 'qq24')" />
+                                <span id="q24">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q24', 'qq24')" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="contact_2" role="tabpanel" aria-labelledby="nav_2">
+
+                <div class="mt-5">
+                    <h1 class="mt-3 mb-3 text-center">PASTA</h1>
+                    <div class="card-columns">
+
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/9e09414d-5e26-43c4-95c5-4c50d68a2914.jpeg" alt="Macaroni with Dongpo Pork in Shaoxing Wine">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Macaroni with Dongpo Pork in Shaoxing Wine</h4>
+                                <h5>$380.00</h5>
+                                <form onsubmit="return addtocart('31', 'qq31', 'qqq31')">
+                                    <input type="hidden" id="31" value="Macaroni with Dongpo Pork in Shaoxing Wine">
+                                    <input type="hidden" id="qq31" value="1">
+                                    <input type="hidden" id="qqq31" value="380">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q31', 'qq31')" />
+                                <span id="q31">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q31', 'qq31')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/76274398-7588-431f-99c7-dd537d8ec350.jpeg" alt="Thai Sour and Spicy Squid Noodles with Seafood">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Thai Sour and Spicy Squid Noodles with Seafood</h4>
+                                <h5>$360.00</h5>
+                                <form onsubmit="return addtocart('32', 'qq32', 'qqq32')">
+                                    <input type="hidden" id="32" value="Thai Sour and Spicy Squid Noodles with Seafood">
+                                    <input type="hidden" id="qq32" value="1">
+                                    <input type="hidden" id="qqq32" value="360">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q32', 'qq32')" />
+                                <span id="q32">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q32', 'qq32')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/3ce6d6ab-c441-4543-9928-e7f1a7255bd0.jpeg" alt="Linguine with Spicy Chicken Karaage">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Linguine with Spicy Chicken Karaage</h4>
+                                <h5>$330.00</h5>
+                                <form onsubmit="return addtocart('33', 'qq33', 'qqq33')">
+                                    <input type="hidden" id="33" value="Linguine with Spicy Chicken Karaage">
+                                    <input type="hidden" id="qq33" value="1">
+                                    <input type="hidden" id="qqq33" value="330">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q33', 'qq33')" />
+                                <span id="q33">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q33', 'qq33')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/9040711c-bf38-4aba-8a94-9b1e57ddb71a.jpeg" alt="Squid Noodles with Clam and Garlic in Wine">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Squid Noodles with Clam and Garlic in Wine</h4>
+                                <h5>$330.00</h5>
+                                <form onsubmit="return addtocart('35', 'qq35', 'qqq35')">
+                                    <input type="hidden" id="35" value="Squid Noodles with Clam and Garlic in Wine">
+                                    <input type="hidden" id="qq35" value="1">
+                                    <input type="hidden" id="qqq35" value="330">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q35', 'qq35')" />
+                                <span id="q35">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q35', 'qq35')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/124871bf-0f47-4655-be8d-8042a0d6f3ec.jpeg" alt="Linguine with Shrimp and Classic Pesto Sauce">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Linguine with Shrimp and Classic Pesto Sauce</h4>
+                                <h5>$360.00</h5>
+                                <form onsubmit="return addtocart('36', 'qq36', 'qqq36')">
+                                    <input type="hidden" id="36" value="Linguine with Shrimp and Classic Pesto Sauce">
+                                    <input type="hidden" id="qq36" value="1">
+                                    <input type="hidden" id="qqq36" value="360">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q36', 'qq36')" />
+                                <span id="q36">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q36', 'qq36')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/186cb982-d60d-44f4-877e-6a24ba012fb0.jpeg" alt="Linguine with Nanyang Double Spices">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Linguine with Nanyang Double Spices</h4>
+                                <h5>$330.00</h5>
+                                <form onsubmit="return addtocart('34', 'qq34', 'qqq34')">
+                                    <input type="hidden" id="34" value="Linguine with Nanyang Double Spices">
+                                    <input type="hidden" id="qq34" value="1">
+                                    <input type="hidden" id="qqq34" value="330">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q34', 'qq34')" />
+                                <span id="q34">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q34', 'qq34')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/234d1782-c657-4022-8dd3-fa52e3898491.jpeg" alt="Linguine with Tomato and Cooking Cream">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Linguine with Tomato and Cooking Cream</h4>
+                                <h5>$330.00</h5>
+                                <form onsubmit="return addtocart('37', 'qq37', 'qqq37')">
+                                    <input type="hidden" id="37" value="Linguine with Tomato and Cooking Cream">
+                                    <input type="hidden" id="qq37" value="1">
+                                    <input type="hidden" id="qqq37" value="330">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q37', 'qq37')" />
+                                <span id="q37">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q37', 'qq37')" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="contact_3" role="tabpanel" aria-labelledby="nav_3">
+
+                <div class="mt-5">
+                    <h1 class="mt-3 mb-3 text-center">FLAVORED RICE</h1>
+                    <div class="card-columns">
+
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/d8cb17a7-8d15-4294-a682-b54a2bb4fad0.jpeg" alt="Chicken Karaage Rice with Curry and Cooking Cream">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Chicken Karaage Rice with Curry and Cooking Cream</h4>
+                                <h5>$360.00</h5>
+                                <form onsubmit="return addtocart('41', 'qq41', 'qqq41')">
+                                    <input type="hidden" id="41" value="Chicken Karaage Rice with Curry and Cooking Cream">
+                                    <input type="hidden" id="qq41" value="1">
+                                    <input type="hidden" id="qqq41" value="360">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q41', 'qq41')" />
+                                <span id="q41">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q41', 'qq41')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/aa27b128-f772-47a7-8363-0a36f1ccfe06.jpeg" alt="Rice with Chicken Karaage and Nanyang Spices">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Rice with Chicken Karaage and Nanyang Spices</h4>
+                                <h5>$330.00</h5>
+                                <form onsubmit="return addtocart('42', 'qq42', 'qqq42')">
+                                    <input type="hidden" id="42" value="Rice with Chicken Karaage and Nanyang Spices">
+                                    <input type="hidden" id="qq42" value="1">
+                                    <input type="hidden" id="qqq42" value="330">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q42', 'qq42')" />
+                                <span id="q42">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q42', 'qq42')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/f0b3af93-4140-485d-ac89-1e4629b2d976.jpeg" alt="Cheese Rice with Mushroom and German Sausage">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Cheese Rice with Mushroom and German Sausage</h4>
+                                <h5>$280.00</h5>
+                                <form onsubmit="return addtocart('43', 'qq43', 'qqq43')">
+                                    <input type="hidden" id="43" value="Cheese Rice with Mushroom and German Sausage">
+                                    <input type="hidden" id="qq43" value="1">
+                                    <input type="hidden" id="qqq43" value="280">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q43', 'qq43')" />
+                                <span id="q43">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q43', 'qq43')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/eb742e61-4b8a-42ee-baf9-ee8b6761cbec.jpeg" alt="Kimchi Rice with Hancheng Spicy Chicken Karaage and Cooking Cream">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Kimchi Rice with Hancheng Spicy Chicken Karaage</h4>
+                                <h5>$360.00</h5>
+                                <form onsubmit="return addtocart('44', 'qq44', 'qqq44')">
+                                    <input type="hidden" id="44" value="Kimchi Rice with Hancheng Spicy Chicken Karaage">
+                                    <input type="hidden" id="qq44" value="1">
+                                    <input type="hidden" id="qqq44" value="360">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q44', 'qq44')" />
+                                <span id="q44">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q44', 'qq44')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/167ff1f4-b5fc-4264-a4a0-839a585805da.jpeg" alt="Gratin Rice with Bleu Chicken Chop and Cooking Cream">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Gratin Rice with Bleu Chicken Chop and Cooking Cream</h4>
+                                <h5>$380.00</h5>
+                                <form onsubmit="return addtocart('45', 'qq45', 'qqq45')">
+                                    <input type="hidden" id="45" value="Gratin Rice with Bleu Chicken Chop and Cooking Cream">
+                                    <input type="hidden" id="qq45" value="1">
+                                    <input type="hidden" id="qqq45" value="380">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q45', 'qq45')" />
+                                <span id="q45">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q45', 'qq45')" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="contact_4" role="tabpanel" aria-labelledby="nav_4">
+
+                <div class="mt-5">
+                    <h1 class="mt-3 mb-3 text-center">BURGERS & SANDWICHES</h1>
+                    <div class="card-columns">
+
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/74ad535d-736d-46fd-9d93-4f8c533860fb.jpeg" alt="Double Burger">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Double Burger</h4>
+                                <h5>$390.00</h5>
+                                <form onsubmit="return addtocart('51', 'qq51', 'qqq51')">
+                                    <input type="hidden" id="51" value="Double Burger">
+                                    <input type="hidden" id="qq51" value="1">
+                                    <input type="hidden" id="qqq51" value="390">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q51', 'qq51')" />
+                                <span id="q51">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q51', 'qq51')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/798106ef-aed5-4b45-9ba3-9b20791f174e.jpeg" alt="Traditional Club Sandwich">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Traditional Club Sandwich</h4>
+                                <h5>$290.00</h5>
+                                <form onsubmit="return addtocart('52', 'qq52', 'qqq52')">
+                                    <input type="hidden" id="52" value="Traditional Club Sandwich">
+                                    <input type="hidden" id="qq52" value="1">
+                                    <input type="hidden" id="qqq52" value="290">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q52', 'qq52')" />
+                                <span id="q52">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q52', 'qq52')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/6a6da93f-e488-4b79-b26b-092ee606f69a.jpeg" alt="Beef Burger with Uster Meat Sauce and Cheese">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Beef Burger with Uster Meat Sauce and Cheese</h4>
+                                <h5>$330.00</h5>
+                                <form onsubmit="return addtocart('53', 'qq53', 'qqq53')">
+                                    <input type="hidden" id="53" value="Beef Burger with Uster Meat Sauce and Chees">
+                                    <input type="hidden" id="qq53" value="1">
+                                    <input type="hidden" id="qqq53" value="330">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q53', 'qq53')" />
+                                <span id="q53">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q53', 'qq53')" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="contact_5" role="tabpanel" aria-labelledby="nav_5">
+
+                <div class="mt-5">
+                    <h1 class="mt-3 mb-3 text-center">TEA</h1>
+                    <div class="card-columns">
+
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/d5991adc-ee30-4447-8110-6d448904c205.jpeg" alt="Iced Tropical Fruit Tea">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Iced Tropical Fruit Tea</h4>
+                                <h5>$150.00</h5>
+                                <form onsubmit="return addtocart('63', 'qq63', 'qqq63')">
+                                    <input type="hidden" id="63" value="Iced Tropical Fruit Tea">
+                                    <input type="hidden" id="qq63" value="1">
+                                    <input type="hidden" id="qqq63" value="150">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q63', 'qq63')" />
+                                <span id="q63">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q63', 'qq63')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/9c66674c-6edb-4238-bd94-b4193a4db593.jpeg" alt="Iced Fruit Tea with Osmanthus">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Iced Fruit Tea with Osmanthus</h4>
+                                <h5>$150.00</h5>
+                                <form onsubmit="return addtocart('61', 'qq61', 'qqq61')">
+                                    <input type="hidden" id="61" value="Iced Fruit Tea with Osmanthus">
+                                    <input type="hidden" id="qq61" value="1">
+                                    <input type="hidden" id="qqq61" value="150">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q61', 'qq61')" />
+                                <span id="q61">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q61', 'qq61')" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://d1ralsognjng37.cloudfront.net/bd84b018-6874-4814-a0d6-13cc286fcdd4.jpeg" alt="Iced Roselle Tea with Crystal Sugar">
+                            <div class="card-body">
+                                <h4 class="card-title mb-0">Iced Roselle Tea with Crystal Sugar</h4>
+                                <h5>$150.00</h5>
+                                <form onsubmit="return addtocart('62', 'qq62', 'qqq62')">
+                                    <input type="hidden" id="62" value="Iced Roselle Tea with Crystal Sugar">
+                                    <input type="hidden" id="qq62" value="1">
+                                    <input type="hidden" id="qqq62" value="150">
+                                    <input type="submit" name="add" value="Add to Cart">
+                                </form>
+                                <input type="button" value="-" id="del" onclick="del('#q62', 'qq62')" />
+                                <span id="q62">1</span>
+                                <input type="button" value="+" id="add" onclick="add('#q62', 'qq62')" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="data"></div>
+        <center>
+            <form method="post"><input type="submit" name="place" onclick="out()" value="Place Order"></form><br>
+            {% if status == "Order Success!" %}
+            <p class="p1">{{ status }}</p>
+            <hr>
+            <p class="p2">
+                Hello from behind Envoy (service {{ service }})!<br>
+                hostname: {{ host }} resolved<br>
+                hostname: {{ host2 }}
+            </p>
+            {% endif %}
+        </center>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+        var cart = [];
+        var cost = 0;
+        function addtocart(i, n, nn) {
+            item = document.getElementById(i).value + " * " + document.getElementById(n).value;
+            cart.push(item);
+            cost += parseInt(document.getElementById(nn).value) * parseInt(document.getElementById(n).value);
+            console.log(cart);
+            console.log(cost);
+            return false;
+        }
+        function out() {
+            alert("Your oreder is:\n" + cart.join("\n") + "\nTotal: $" + cost + ".00\n");
+        }
+        function getcart() {
+            return JSON.stringify(cart);
+        }
+        function del(q, qq) {
+            var num = parseInt($(q).text()) - 1;
+            if (num < 1) {
+                $(q).text(1);
+            } else {
+                $(q).text(num);
+            }
+            document.getElementById(qq).value = num;
+        }
+        function add(q, qq) {
+            var num = parseInt($(q).text()) + 1;
+            $(q).text(num);
+            document.getElementById(qq).value = num;
+            console.log(document.getElementById(qq).value);
+        }
+    </script>
+</body>
+</html>
